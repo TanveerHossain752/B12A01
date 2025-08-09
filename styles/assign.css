@@ -56,3 +56,26 @@ nav ul li a {
 .header-title {
     font-size: 65px;
 }
+.scale{
+    margin-left: 141px;
+    margin-right: 159px;
+}
+.margin-top{
+    margin-top: 116px;
+}
+.action-section{
+    display: flex;
+    justify-content: space-between;
+}
+.action-left{
+    margin: 62.5px 0px;
+}
+.title{
+    font-size: 42px;
+}
+.subtitle{
+    font-size: 24px;
+}
+.img-container{
+    border-radius: 48px;
+}
