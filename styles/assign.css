@@ -55,6 +55,7 @@ nav ul li a {
 }
 .header-title {
     font-size: 65px;
+    color: rgba(37, 36, 50, 1);
 }
 .scale{
     margin-left: 141px;
@@ -75,7 +76,38 @@ nav ul li a {
 }
 .subtitle{
     font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
 }
 .img-container{
     border-radius: 48px;
+}
+.Productive-Users-Section{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.centered-container{
+    text-align: center;
+    padding: 50px 142px;
+    gap: 40px;
+}
+.centered-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.centered-content{
+    display: flex;
+    justify-content: space-around;
+}
+.centered-item{
+    column-gap: 0px;
+}
+.centered-subtitle{
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+}
+.centered-text{
+    font-size: 20px;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.5);
 }
