@@ -8,7 +8,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+body{
+    background-color: rgba(245, 248, 255, 1)
+}
 .text-center {
     text-align: center;
 }
@@ -110,4 +112,58 @@ nav ul li a {
     font-size: 20px;
     margin-top: 0px;
     color: rgba(0, 0, 0, 0.5);
+}
+.in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.touch-left{
+    font-weight: bold;
+    font-size: 97px;
+}
+.touch-right{
+    margin-top: 71px;
+    width: 50%;
+    height: 490px;
+    margin-bottom: 71px;
+}
+main input[type="email"],
+main input[type="text"] {
+    width: 100%;
+    height: 70px;
+    padding-left: 32px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 19px;
+    border: none;
+    background-color: white;
+    gap: 10px;
+    box-shadow : 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main textarea {
+    width: 100%;
+    height: 135px;
+    padding-top: 20px;
+    padding-left: 32px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 19px;
+    border: none;
+    background-color: white;
+    gap: 10px;
+}
+main input[type="submit"] {
+    width: 100%;
+    height: 62px;
+    gap: 10px;
+}
+main label{
+    font-size: 18px;
+    font-weight: 600;
+    gap: 10px;
+}
+hr{
+    border: none;
 }
