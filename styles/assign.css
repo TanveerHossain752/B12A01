@@ -122,6 +122,12 @@ nav ul li a {
 .touch-left{
     font-weight: bold;
     font-size: 97px;
+    width: 50%;
+    height: 490px; 
+}
+.section-title{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .touch-right{
     margin-top: 71px;
@@ -166,4 +172,96 @@ main label{
 }
 hr{
     border: none;
+}
+.footer-section{
+    width: 100%;
+    height: 428px;
+    background-color: white;
+    padding: 104px 0px;
+}
+.website-name{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.link a{
+    text-decoration: none;
+    color: rgba(37, 36, 50, 0.5);
+    font-weight: bold;
+}
+.review-section{
+    margin-left: 151px;
+    margin-right: 149px;
+}
+.hd{
+    margin-bottom: 50px;
+}
+.hd-name{
+    font-size: 42px;
+    font-weight: bold;
+}
+.bd{
+    display: flex;
+    justify-content: space-between;
+}
+.bd-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    width: 100%;
+    margin-right: 20px;
+    padding: 24px;
+}
+.bd-user-avatar{
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.bd-user-info{
+    display: flex;
+    gap: 12px;
+    padding-top: 0px;
+}
+.bd-user-name{
+    color: rgba(117, 117, 117, 1);
+}
+.bd-user-role{
+    color: rgba(179, 179, 179, 1);
+}
+.bd-details{
+    color: rgba(30, 30, 30, 1);
+    font-weight: 500;
+}
+.bd-title{
+    color: rgba(30, 30, 30, 1);
+}
+.ready-to-focus{
+    margin-left: 151px;
+    margin-right: 149px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 71px 150px;
+}
+.section-title1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.section-btn{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.section-img{
+    border-radius: 48px;
+    width: 850px;
 }
